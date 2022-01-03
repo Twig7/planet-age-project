@@ -7,4 +7,7 @@ export class calcAge {
     this.mercury = 0.24;
     this.venus = 0.62;
   }
+  planetAge() {
+    this.jupiterAge 
+  }
 }

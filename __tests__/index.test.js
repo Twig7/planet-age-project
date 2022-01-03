@@ -8,5 +8,9 @@ let userAge;
 })
 test("should have calcAge return correct inputted age", () => {
   expect(userAge.age).toEqual(10);
-});
+})
+test("should return age on jupiter if inputted earth age remains 10 years old", () => {
+  userAge.planetAge();
+  expect(userAge.jupiterAge).toEqual(0.84);
+})
 })
