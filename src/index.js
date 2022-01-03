@@ -11,5 +11,6 @@ export class calcAge {
     this.jupiterAge = parseFloat((this.age / this.jupiter).toFixed(2)); 
     this.marsAge = parseFloat((this.age / this.mars).toFixed(1));
     this.mercuryAge = parseFloat((this.age / this.mercury).toFixed(1));
+    this.venusAge = parseFloat((this.age / this.venus).toFixed(1));
   }
 }

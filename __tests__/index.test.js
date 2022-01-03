@@ -21,4 +21,8 @@ test("should return age on mercury if inputted earth age remains 10 years old", 
   userAge.planetAge();
   expect(userAge.mercuryAge).toEqual(41.7)
 })
+test("should return age on venus if inputted earth age remains 10 years old", () => {
+  userAge.planetAge();
+  expect(userAge.venusAge).toEqual(16.1)
+})
 })
