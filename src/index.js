@@ -8,6 +8,6 @@ export class calcAge {
     this.venus = 0.62;
   }
   planetAge() {
-    this.jupiterAge 
+    this.jupiterAge = parseFloat((this.age / this.jupiter).toFixed(2)); 
   }
 }
