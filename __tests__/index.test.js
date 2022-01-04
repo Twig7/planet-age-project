@@ -49,4 +49,8 @@ test("should return years of life remaining on jupiter if userAge remains 10 yea
   userAge.lifeRemain();
   expect(userAge.jupiterRemain).toEqual(5.8)
 })
+test("should return years of life remaining on mars if userAge remains 10 years old", () => {
+  userAge.lifeRemain();
+  expect(userAge.marsRemain).toEqual(36.7)
+})
 })
