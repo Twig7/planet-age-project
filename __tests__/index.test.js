@@ -67,5 +67,8 @@ describe('calcAge', () => {
   beforeEach(() => {
     userOldage = new calcAge(200, 79);
   });
-  
+  test("should return years lived past expactancy on earth", () => {
+    userOldage.lifePassed();
+    expect(userOldage.earthPassed).toEqual(121)
+  })
 })
