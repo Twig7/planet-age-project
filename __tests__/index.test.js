@@ -33,4 +33,8 @@ test("should return life expect on mercury if earth expect is 79 years old", () 
   userAge.planetExpect();
   expect(userAge.mercuryExpect).toEqual(329.2)
 })
+test("should return life expect on mars if earth expect is 79 years old", () => {
+  userAge.planetExpect();
+  expect(userAge.marsExpect).toEqual(42)
+})
 })
