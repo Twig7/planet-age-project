@@ -81,6 +81,10 @@ describe('calcAge', () => {
   })
   test("should return years lived past expectancy on mercury", () => {
     userOldage.lifePassed();
-    expect(userOldage.mercuryPassed).toEqual(504.1)
+    expect(userOldage.mercuryPassed).toEqual(504.2)
+  })
+  test("should return years lived past expectancy on venus", () => {
+    userOldage.lifePassed();
+    expect(userOldage.venusPassed).toEqual(195.1)
   })
 })
