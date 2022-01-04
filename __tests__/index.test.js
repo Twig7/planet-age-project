@@ -59,6 +59,13 @@ test("should return years of life reamining on mercury if userAge remains 10 yrs
 })
 test("should return years of life remaining on venus if userAge reamins 10 yrs", () => {
   userAge.lifeRemain();
-  expect(userAge.venusRemain).toEqual(111.2)
+  expect(userAge.venusRemain).toEqual(111.3)
 })
+})
+describe('calcAge', () => {
+  let userOldage;
+  beforeEach(() => {
+    userOldage = new calcAge(200, 79);
+  });
+  
 })
