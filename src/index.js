@@ -15,5 +15,6 @@ export class calcAge {
   }
   planetExpect() {
     this.jupiterExpect = parseFloat((this.earthExpect / this.jupiter).toFixed(2));
+    this.mercuryExpect = parseFloat((this.earthExpect / this.mercury).toFixed(1));
   }
 }
