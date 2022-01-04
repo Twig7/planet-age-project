@@ -75,4 +75,8 @@ describe('calcAge', () => {
     userOldage.lifePassed();
     expect(userOldage.jupiterPassed).toEqual(10.2)
   })
+  test("should return years lived past expectancy on mars", () => {
+    userOldage.lifePassed();
+    expect(userOldage.marsPassed).toEqual(64.3)
+  })
 })
