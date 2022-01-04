@@ -5,3 +5,4 @@ node_modules
 launch.json
 package-lock.json
 package.json
+coverage
