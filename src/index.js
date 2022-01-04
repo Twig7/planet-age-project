@@ -1,3 +1,5 @@
+import { parse } from "@babel/core";
+
 export class calcAge {
   constructor(age, earthExpect) {
     this.age = age;
@@ -18,5 +20,9 @@ export class calcAge {
     this.mercuryExpect = parseFloat((this.earthExpect / this.mercury).toFixed(1));
     this.marsExpect = parseFloat((this.earthExpect / this.mars).toFixed(1));
     this.venusExpect = parseFloat((this.earthExpect / this.venus).toFixed(1));
+  }
+  lifeRemain() {
+    this.earthRemain = parseFloat((this.earthExpect - this.age).toFixed(1));
+    this.jupiterRemain = parseFloat((this.earthRemain / this.jupiter).toFixed(1))
   }
 }
