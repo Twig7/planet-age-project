@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1641279590782" clover="3.2.0">
-  <project timestamp="1641279590782" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="13" coveredelements="12" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+<coverage generated="1641279798536" clover="3.2.0">
+  <project timestamp="1641279798536" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="14" coveredelements="14" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
     <file name="index.js" path="C:\Users\amoot\OneDrive\Desktop\planet-age-calc\src\index.js">
-      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <line num="3" count="6" type="stmt"/>
       <line num="4" count="6" type="stmt"/>
       <line num="5" count="6" type="stmt"/>
       <line num="6" count="6" type="stmt"/>
       <line num="7" count="6" type="stmt"/>
       <line num="8" count="6" type="stmt"/>
-      <line num="11" count="5" type="stmt"/>
-      <line num="12" count="5" type="stmt"/>
-      <line num="13" count="5" type="stmt"/>
-      <line num="14" count="5" type="stmt"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
