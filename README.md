@@ -19,8 +19,9 @@ _This code will take an inputted age and return how old said age would be on oth
 
 - _Clone this repo to desktop_
 - _Navigate to the root directory of project_
-- _install npm in project root directory_
+- _install npm in project root directory by running $npm install in the terminal_
 - _open directory in Visual Studio Code or other choice of code editor_
+- _run npm test in project terminal to test different aspects of the code_
 
 ## Known Bugs
 
